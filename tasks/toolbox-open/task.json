@@ -1,0 +1,13 @@
+{
+  "title": "Unlatch a toolbox and open the lid all the way",
+  "category": "Impact on jobs",
+  "keywords": ["toolbox", "latches", "hinged lid", "bimanual", "workshop"],
+  "instruction": "Open the toolbox: release both latches and swing the lid all the way open.",
+  "context": "Opening a latched tool case is the first step of most bench work, and a lid left half open or a latch left half released is a pinch and drop hazard. Done by: machinists, mechanics and electricians.",
+  "setup": "TODO verify every [bracket] from the asset. A closed hard-case toolbox ([L x W x H] cm; plastic body, 3 kg; yellow-and-black lid, 0.5 kg; chrome-plated metal clips) stands on the oak table with its two front clips toward the robot, [x] cm out from the arm bases' line and centred on the midline, its hinge on the far side. The two clips sit [spacing] cm apart on a single latch bar and each hook over a catch on the box; the lid has a folding carry handle. The lid hinge stops at 90 degrees.",
+  "scoring": "Measured with a phone protractor on the lid's angle from closed. 1.0 if the lid is open at least 85 degrees and still for 1 s, and the toolbox has not slid more than 3 cm at any point. 0.75 if the lid is open at least 45 degrees. 0.5 if open at least 10 degrees. 0.25 if the latch bar is released (turned at least [10] degrees from where it rested) with the lid still shut. Otherwise 0. 0 if the toolbox slid more than 3 cm at any point.",
+  "run_limit": "1,200 steps (1 minute at 20 Hz)",
+  "reset_notes": "Close the lid and push the latch bar back into its catches.",
+  "fidelity": "The toolbox is NVIDIA's SimReady hard-case asset, CC-BY-4.0, with its own mass, friction and hinge limits. In the asset the two clips are one rigid latch bar: releasing either clip releases both, so the simulation cannot tell whether one arm or two released them, and the task does not require two arms. The latch holds the lid shut by contact between the clip hooks and the box's catches. The lid hinge and handle are frictionless joints with light damping [value]. [Any scaling or base fixing applied.]",
+  "scores": "Dream-1 run: TODO; demo: TODO"
+}

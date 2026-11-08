@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.storage_toolbox_standard_hardCase_d01.2026.10.09_172705431157",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "e32ec6632db4555edea6026e6903d196c9e588af7c8289a8ae1ccd8ebcadff32"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "4dde2b744722c4bea7d8d8ecdfd5f1e161f30f7e6e8432b6a6aef48344fd0e90"
+  },
+  "package_hash": {
+    "sha256": "c37ce519dbd8b608c139a092e1210b3bc9a9c1f06b448047ae6176c7e17dee66"
+  }
+}
