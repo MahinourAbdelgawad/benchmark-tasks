@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.consumable_microfiber_towel_wrinkled_b01.2026.10.09_000542627157",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "6cfa79ca6e4d66cb761401184c89e7156023f7e8bfe6fd96d9f567fab48f0cb1"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "5452e04e94f6cd92bb9321cd4fb6ca177eb5f0233a53806b966cd4e2f9952409"
+  },
+  "package_hash": {
+    "sha256": "5d086adac9f109ed8eb51b93afa602c42d38b17188df1f73ab99b583b8faa37c"
+  }
+}

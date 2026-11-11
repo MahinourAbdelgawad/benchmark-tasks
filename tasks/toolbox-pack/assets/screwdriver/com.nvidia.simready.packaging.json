@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.ForgeCAD.simready-assets.screwdriver.2026.10.17_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "1a3aed8cfc9e164f010f37e61b18d333e802a2cac00bc32d1e8892709c13fc68"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "0e03d5bf450502e8bf03f074cd9072b2433ffe854e9b897964471271c62838ef"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "8a047e7d3fd16d517fd931332e5cd3a2f7bff046166b8c19a32265bee0614ce8"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "d5e3d507df2e6c6ac39840d781a6831418856a5000580cd5c9994bf461e2b253"
+  },
+  "package_hash": {
+    "sha256": "0e61c3603b98ecd86581e34c7101ae36d77a069fc7c2cc60f34fc965247ffda0"
+  }
+}

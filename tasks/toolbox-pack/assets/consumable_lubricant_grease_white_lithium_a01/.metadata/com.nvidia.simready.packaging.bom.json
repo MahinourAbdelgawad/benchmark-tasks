@@ -1,0 +1,291 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/sm_consumable_lubricant_grease_white_lithium_a01_01.usd",
+      "size": 20143,
+      "hash": {
+        "sha256": "6726ad8e0044b02d95070b5dca24fd51efe98e7365409510bf9fafa3421d8cdf"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/sm_consumable_lubricant_grease_white_lithium_a01_01_thumbnail.png",
+      "size": 735131,
+      "hash": {
+        "sha256": "ac48ff9457dac3c371b20f80c67d6ec67f630ce40fec466b1d9dbdbfc2e284eb"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_lubricant_grease_white_lithium_a01_01.usd.png",
+      "size": 914607,
+      "hash": {
+        "sha256": "6a86129ee4b5cb1880373dcf77e80f4002beb2f5ffe1d69a869e2708913188e4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_lubricant_grease_white_lithium_a01_01.usd_light.png",
+      "size": 452823,
+      "hash": {
+        "sha256": "cc61cb9c321a4e7a25dec86fe3c5a1384cfb1a42abc8a7e576ba2d219e628632"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_lubricant_grease_white_lithium_a01_01.usd_transparent.png",
+      "size": 384308,
+      "hash": {
+        "sha256": "bf89c321bbb5fe8dc7ce187117e253812ff0d0b1a85bdb7deec1cb80297cea25"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_lubricant_a01_alb.png",
+      "size": 13856763,
+      "hash": {
+        "sha256": "09f279240cd1db88aed6c948e0117df979848c8b7ea028491494c238a2e6b783",
+        "sha256-first1m": "0ee663f3bfb15bc1672b4408ef7f896870a940095901ef815dcd66d20fbcf9f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_lubricant_a01_orm.png",
+      "size": 11163944,
+      "hash": {
+        "sha256": "86dcf3077c77bb0e002fbb1f1be8901f033e40fa220a0a5933c86867a6a62b9b",
+        "sha256-first1m": "9254c127772afeef706febd2c50792b55468c003d069a3d28d0a2ddf4ea925dc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_lubricant_a01_nor.png",
+      "size": 2910753,
+      "hash": {
+        "sha256": "8c0d116722db2cbc7de0c3d858eb27a61c3658bc741dbda89910b12250341918",
+        "sha256-first1m": "4c290b6d74e8fc22f94696dec9cbc86438df8acf20bf9498afc7fb56e50d9e2f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_lubricant_a01_alb.png.png",
+      "size": 89125,
+      "hash": {
+        "sha256": "205469c7cace9fa969507b14c77933cd0e91daa7f5e912ebbb7fd0e07beebe42"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_lubricant_a01_nor.png.png",
+      "size": 45648,
+      "hash": {
+        "sha256": "191e034acea9f8c31db6689fd688c12bdc3203b790cd7f67f4d95527eb00a239"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_lubricant_a01_orm.png.png",
+      "size": 75721,
+      "hash": {
+        "sha256": "7f3554403ba650cc1fcfaba1ccf4bf081ef12190f5dcb66ae43e7dd7b160861d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_lubricant_a01_alb.png.png",
+      "size": 312233,
+      "hash": {
+        "sha256": "617c40488b97517d364ac65488b181e7c02bbe601a350c759dbacc360e74baa2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_lubricant_a01_nor.png.png",
+      "size": 178360,
+      "hash": {
+        "sha256": "0ede85689800c3e3a454168b135cf8df653fd444b0b0a0ab110e8c03a64fd28e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_lubricant_a01_orm.png.png",
+      "size": 271232,
+      "hash": {
+        "sha256": "b30cad780170a5cdabda3d0d98ef97d614cf25242260a20b04a40b357edb57b0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/base.usda",
+      "size": 13736,
+      "hash": {
+        "sha256": "b5228ce78c15f7f54006f961ccd7ceb00e524424d9fe3ba05f0d8bc2900d6e0f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/geometries.usd",
+      "size": 872174,
+      "hash": {
+        "sha256": "e4bc7a501ba772dd020e39a2b3dd4869485fa4512a8aa3ff4139c0fb3f304559"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances.usda",
+      "size": 8613,
+      "hash": {
+        "sha256": "02469990f6ae54d3961c79f539efdc131c3260a69af49db2c3781c3e4302329a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_mujoco.usda",
+      "size": 9157,
+      "hash": {
+        "sha256": "b015b4bbb0c243be09fd383a511310666819ea137c9b5ce58b6b0f6509ea9120"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_newton.usda",
+      "size": 8859,
+      "hash": {
+        "sha256": "d1cb5d78279fa1afe7b0f31f8d549599d7ea26b74ddec5bb0141dc1bee0b5884"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_physx.usda",
+      "size": 8893,
+      "hash": {
+        "sha256": "4077477241a65d2d8ef97cc9587270dbeee028f1854d6e2dcd8eff12818d9e9f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/materials.usda",
+      "size": 12679,
+      "hash": {
+        "sha256": "4b904c94d66a196e310df4b35f65f331e4955f64d3fd7692f8f5b92a81e31aa4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/MuJoCo/disabled.usda",
+      "size": 6515,
+      "hash": {
+        "sha256": "e541234c451bd87497bd6aadcb0873b8048d0a6145c8a1d1e5d0624b24d6226a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/MuJoCo/enabled.usda",
+      "size": 7578,
+      "hash": {
+        "sha256": "7abcbe00d4f2a5db30317a81944966e79ff8bf6a8d7d2966dbabbdadfdf8cca3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Newton/disabled.usda",
+      "size": 6515,
+      "hash": {
+        "sha256": "e541234c451bd87497bd6aadcb0873b8048d0a6145c8a1d1e5d0624b24d6226a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Newton/enabled.usda",
+      "size": 7289,
+      "hash": {
+        "sha256": "bd754a63fa3f9b4e21d61ca6ae5c1bb8ba2b2c79445304568329035bdbfa12f0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/PhysX/disabled.usda",
+      "size": 6515,
+      "hash": {
+        "sha256": "e541234c451bd87497bd6aadcb0873b8048d0a6145c8a1d1e5d0624b24d6226a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/PhysX/enabled.usda",
+      "size": 6981,
+      "hash": {
+        "sha256": "daf87cbd42aff2c8d13a282ab84f3865fe37d137ccd3a2f1a9cd7ec367c686df"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Physics/physics.usda",
+      "size": 8389,
+      "hash": {
+        "sha256": "ad811352183f77f7ec52244c7029e2e595203f851f74cd2233c6c26563d46317"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBR.mdl",
+      "size": 16010,
+      "hash": {
+        "sha256": "6e6b3acbccd236e21a6c29964a431d2a53e77251cc6b8b1bc975eb1c62da1781"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBRBase.mdl",
+      "size": 19369,
+      "hash": {
+        "sha256": "a8fd9fe174e91892e94d06da90ba453a124024c2ce2c033be9d82c9e2f76a3b7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBR_ClearCoat.mdl",
+      "size": 29789,
+      "hash": {
+        "sha256": "d84c5ba482561c0eaea2e0c5b607358af549e36cd921773462f92dbc4f32cbc3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_lubricant_a01_alb.png",
+      "size": 13856763,
+      "hash": {
+        "sha256": "09f279240cd1db88aed6c948e0117df979848c8b7ea028491494c238a2e6b783",
+        "sha256-first1m": "0ee663f3bfb15bc1672b4408ef7f896870a940095901ef815dcd66d20fbcf9f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_lubricant_a01_nor.png",
+      "size": 2910753,
+      "hash": {
+        "sha256": "8c0d116722db2cbc7de0c3d858eb27a61c3658bc741dbda89910b12250341918",
+        "sha256-first1m": "4c290b6d74e8fc22f94696dec9cbc86438df8acf20bf9498afc7fb56e50d9e2f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_lubricant_a01_orm.png",
+      "size": 11163944,
+      "hash": {
+        "sha256": "86dcf3077c77bb0e002fbb1f1be8901f033e40fa220a0a5933c86867a6a62b9b",
+        "sha256-first1m": "9254c127772afeef706febd2c50792b55468c003d069a3d28d0a2ddf4ea925dc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_lubricant_a01_alb.png.png",
+      "size": 89125,
+      "hash": {
+        "sha256": "205469c7cace9fa969507b14c77933cd0e91daa7f5e912ebbb7fd0e07beebe42"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_lubricant_a01_nor.png.png",
+      "size": 45648,
+      "hash": {
+        "sha256": "191e034acea9f8c31db6689fd688c12bdc3203b790cd7f67f4d95527eb00a239"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_lubricant_a01_orm.png.png",
+      "size": 75721,
+      "hash": {
+        "sha256": "7f3554403ba650cc1fcfaba1ccf4bf081ef12190f5dcb66ae43e7dd7b160861d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_lubricant_a01_alb.png.png",
+      "size": 312233,
+      "hash": {
+        "sha256": "617c40488b97517d364ac65488b181e7c02bbe601a350c759dbacc360e74baa2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_lubricant_a01_nor.png.png",
+      "size": 178360,
+      "hash": {
+        "sha256": "0ede85689800c3e3a454168b135cf8df653fd444b0b0a0ab110e8c03a64fd28e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_lubricant_a01_orm.png.png",
+      "size": 271232,
+      "hash": {
+        "sha256": "b30cad780170a5cdabda3d0d98ef97d614cf25242260a20b04a40b357edb57b0"
+      }
+    }
+  ]
+}

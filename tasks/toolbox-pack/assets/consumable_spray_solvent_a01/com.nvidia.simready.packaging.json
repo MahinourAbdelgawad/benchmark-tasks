@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.consumable_spray_solvent_a01.2026.10.09_000741762446",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "e879bd6d5f9619ee163d013e6ee8d831f1984d98cfc8dd65f641bc580d5cebd3"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "efe14f62776d1c7c9be10525cff6844675ae2a13713fbace1bf6173bca7dd2a9"
+  },
+  "package_hash": {
+    "sha256": "1af8b5c2e71dfa49138cd99ed15138e027c69805f65bf787e1af4f56712d1984"
+  }
+}

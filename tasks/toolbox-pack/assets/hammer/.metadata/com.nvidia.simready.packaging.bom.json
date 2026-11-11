@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/hammer.usda.png",
+      "size": 8950,
+      "hash": {
+        "sha256-flat-1mb": "720c623d9062ccd10559f1c59026eb847098a380567d8fea807ccf403fef35b6",
+        "sha256": "667153f35a832897bdc4d09af42e7badb463113b78de4c00dd61a19b31989040"
+      }
+    },
+    {
+      "relative_path": "simready_usd/assets/forged-steel.png",
+      "size": 2341438,
+      "hash": {
+        "sha256-flat-1mb": "42c96e8ad7e826ded324636b780be34778231c9f8ca9614d7696ad98530aea50",
+        "sha256": "ce829a10683741cbf623d109d6528ebbf05e5e5f32d79be63a11f94812ebf4e1",
+        "sha256-first1m": "b02fd5c6fd4815c1d8b7930edb40ae70277884b6d4e578d47275619e3e283ef9"
+      }
+    },
+    {
+      "relative_path": "simready_usd/assets/hickory-handle.png",
+      "size": 1406581,
+      "hash": {
+        "sha256-flat-1mb": "92ace6dc9773ed3861c4eca8a364cacfaf72b44d84bc125c841dbee39b3e5557",
+        "sha256": "b01632b6a10339681eb0a7da9022393609316f5a489ec9fe3bdc99c89246dcc2",
+        "sha256-first1m": "937efabef1d66d5b93524675763ddfedd08cbfe50c786d5f40f6fa93531c286e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/forgecad/geometry.usda",
+      "size": 47681240,
+      "hash": {
+        "sha256-flat-1mb": "4cb5cc9af8a9d22d2dcf7d6c61cc0df9ed27c49677c487919dfc3f55edb60adc",
+        "sha256": "cd6ff237b18de74308d46ff78fb08f3498367f91b85cbdd6039ffb5ebbf37721",
+        "sha256-first1m": "994f113805824c7f8518b2a4f8abf222e95ae573bf7fc9a735c84d047976890a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/forgecad/physics.usda",
+      "size": 74059,
+      "hash": {
+        "sha256-flat-1mb": "eb66cd2a4a0da3ecc5b9d25b0cb0bdbab9027428a9c153983010e20e66017034",
+        "sha256": "35ef41822d5275fdf0cfb849400e28c2171d376cda83840b4877ce3ece36f9cd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/hammer.usda",
+      "size": 15350,
+      "hash": {
+        "sha256-flat-1mb": "be9896b252f146d287c3796340863483f4ae024f4a45b62d9152b856f1d73dfb",
+        "sha256": "015168981391912ef1162b06b8b3fbeb0fd7038a2d5872e544441ddde888e66e"
+      }
+    }
+  ]
+}

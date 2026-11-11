@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.consumable_lubricant_grease_white_lithium_a01.2026.10.09_000345314675",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "92724cf9229eff9c29a616c24e1f4bc358b4af08910af17830e5ccf7be201c60"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "87bdcec71e2311ea1580cf2b35c5c9fc8273a0f62cada857ea6efa6753aa8150"
+  },
+  "package_hash": {
+    "sha256": "0e819089ecec07deb59fc006205584efa6da6d79a32d7d965576723875a5ce39"
+  }
+}

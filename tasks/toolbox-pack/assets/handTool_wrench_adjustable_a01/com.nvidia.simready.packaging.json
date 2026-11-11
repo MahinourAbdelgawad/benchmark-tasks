@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.handTool_wrench_adjustable_a01.2026.10.09_053653402939",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "e92d31bab2add878cc2003448581eea1bfb3361d2390ec0a79dea8e98da04bc9"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "b10ce73e86c82714e35dc1d3ef4e3acd7529def76b596de2b7d8251a316896a5"
+  },
+  "package_hash": {
+    "sha256": "53fd47a57770e5426d7b4452c932c8673bd37b609e320d8eeda100f8df8ab40a"
+  }
+}

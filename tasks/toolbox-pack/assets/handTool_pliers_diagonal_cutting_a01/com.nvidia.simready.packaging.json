@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.handTool_pliers_diagonal_cutting_a01.2026.10.09_052025598554",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "799d1da4c9d924920f1db591b010bf1053e9a56716eec1cd4382e059c66d8918"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "a6e5d5858f93b63948d8bd21280da3119973e47c02d92350caaddacda55f5572"
+  },
+  "package_hash": {
+    "sha256": "00218c7c505df248f00eb49b6fa233af4a8bac257f960967bb11cd101f27232e"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.consumable_sealant_window_a01.2026.10.09_000734420842",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "d559f1355156d9e9b3a00cd8314ddae286c8d2099c4cb0077ec152e5841454c9"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "6c26d4e62b7ec6b4875b3facb19e70dcb8234257fe7f8889d68bb160d8017793"
+  },
+  "package_hash": {
+    "sha256": "7e5b2ec50ef8c82bbda07d88ec546fb36f7f2e6ba4d32ebbb6de4951c42f2ce0"
+  }
+}

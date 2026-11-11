@@ -1,0 +1,95 @@
+#usda 1.0
+(
+    defaultPrim = "RootNode"
+)
+
+def Xform "RootNode" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+    prepend references = @../ppe_eyeProtection_safetyGlasses_a01/simready_usd/sm_ppe_eyeProtection_safetyGlasses_a01_01.usd@
+)
+{
+    over "Geometry"
+    {
+        over "templeLeft_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__glossy_black_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "lens_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_trans__glass__clean_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "templeRight_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__glossy_black_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "frame_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__glossy_black_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+    }
+
+    over "Joints"
+    {
+        over "joint_templeRight_01_joint_00" (
+            active = false
+        )
+        {
+        }
+
+        over "joint_templeLeft_01_joint_00" (
+            active = false
+        )
+        {
+        }
+
+        over "joint_lens_01_joint_00" (
+            active = false
+        )
+        {
+        }
+    }
+}
+

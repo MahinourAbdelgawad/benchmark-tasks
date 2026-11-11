@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.ppe_eyeProtection_safetyGlasses_a01.2026.10.09_151629877527",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "e6a7ea063b5572eae75c1cf7ba353583f9e9e697fdd4d90a5d2df870eb7be78d"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "ecf9e52ca02d2e0241d88cc9838a7327707082cee8081ea03d2532092ef3c779"
+  },
+  "package_hash": {
+    "sha256": "67d609e2d2b974b9ad14f9d5a1799e63099d9f69beb046e546dd7f3005be91c0"
+  }
+}

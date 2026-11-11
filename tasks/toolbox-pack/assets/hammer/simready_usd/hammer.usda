@@ -1,0 +1,465 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            float3 asset_extents = (0.130112, 0.33013, 0.029216)
+            string asset_license = "CC-BY-4.0"
+            string asset_name = "hammer"
+            string asset_type = "prop"
+            string author = "ForgeCAD"
+            string category = "hand tool"
+            double mass = 0.6401328444480896
+            string qcode = "Q25294"
+            int rigid_body_count = 1
+            string source = "ForgeCAD"
+            string source_file = "main.usda"
+            string usd_date_generated = "2026-10-17"
+        }
+        string asset_name = "hammer"
+        string asset_type = "prop"
+        string source_file = "main.usda"
+        string usd_date_generated = "2026-10-17"
+    }
+    defaultPrim = "Model"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Model" (
+    prepend apiSchemas = ["SemanticsLabelsAPI:class", "SemanticsLabelsAPI:wikidata_qcode"]
+    prepend references = @./forgecad/geometry.usda@</Model>
+    variants = {
+        string finish = "fiberglass_yellow"
+        string head = "claw_hammer"
+        string physics = "physics"
+    }
+    prepend variantSets = ["physics", "finish", "head"]
+)
+{
+    token[] semantics:labels:class = ["hammer"]
+    token[] semantics:labels:wikidata_qcode = ["Q25294"]
+
+    def Scope "Materials"
+    {
+        def Material "ForgedSteel" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/ForgedSteel/Surface.outputs:surface>
+            token[] semantics:labels:material = ["metal"]
+
+            def Shader "St"
+            {
+                uniform token info:id = "UsdPrimvarReader_float2"
+                string inputs:varname = "st"
+                float2 outputs:result
+            }
+
+            def Shader "Tile"
+            {
+                uniform token info:id = "UsdTransform2d"
+                float2 inputs:in.connect = </Model/Materials/ForgedSteel/St.outputs:result>
+                float2 inputs:scale = (20, 20)
+                float2 outputs:result
+            }
+
+            def Shader "Albedo"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./assets/forged-steel.png@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </Model/Materials/ForgedSteel/Tile.outputs:result>
+                token inputs:wrapS = "repeat"
+                token inputs:wrapT = "repeat"
+                float3 outputs:rgb
+            }
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor.connect = </Model/Materials/ForgedSteel/Albedo.outputs:rgb>
+                float inputs:metallic = 0.8
+                float inputs:roughness = 0.45
+                token outputs:surface
+            }
+        }
+
+        def Material "PolishedSteel" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/PolishedSteel/Surface.outputs:surface>
+            token[] semantics:labels:material = ["metal"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.74, 0.75, 0.77)
+                float inputs:metallic = 1
+                float inputs:roughness = 0.3
+                token outputs:surface
+            }
+        }
+
+        def Material "BlackEnamelSteel" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/BlackEnamelSteel/Surface.outputs:surface>
+            token[] semantics:labels:material = ["metal"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.03, 0.03, 0.035)
+                float inputs:metallic = 0.2
+                float inputs:roughness = 0.4
+                token outputs:surface
+            }
+        }
+
+        def Material "MalletRubber" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/MalletRubber/Surface.outputs:surface>
+            token[] semantics:labels:material = ["rubber"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.035, 0.035, 0.04)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.85
+                token outputs:surface
+            }
+        }
+
+        def Material "RedPolyurethane" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/RedPolyurethane/Surface.outputs:surface>
+            token[] semantics:labels:material = ["plastic"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.62, 0.06, 0.04)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.55
+                token outputs:surface
+            }
+        }
+
+        def Material "BlackPolyurethane" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/BlackPolyurethane/Surface.outputs:surface>
+            token[] semantics:labels:material = ["plastic"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.03, 0.03, 0.03)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "YellowFiberglass" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/YellowFiberglass/Surface.outputs:surface>
+            token[] semantics:labels:material = ["fiberglass"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.93, 0.66, 0.02)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        def Material "BlackRubber" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/BlackRubber/Surface.outputs:surface>
+            token[] semantics:labels:material = ["rubber"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.025, 0.025, 0.028)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.85
+                token outputs:surface
+            }
+        }
+
+        def Material "Hickory" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/Hickory/Surface.outputs:surface>
+            token[] semantics:labels:material = ["wood"]
+
+            def Shader "St"
+            {
+                uniform token info:id = "UsdPrimvarReader_float2"
+                string inputs:varname = "st"
+                float2 outputs:result
+            }
+
+            def Shader "Tile"
+            {
+                uniform token info:id = "UsdTransform2d"
+                float2 inputs:in.connect = </Model/Materials/Hickory/St.outputs:result>
+                float2 inputs:scale = (10, 10)
+                float2 outputs:result
+            }
+
+            def Shader "Albedo"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./assets/hickory-handle.png@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </Model/Materials/Hickory/Tile.outputs:result>
+                token inputs:wrapS = "repeat"
+                token inputs:wrapT = "repeat"
+                float3 outputs:rgb
+            }
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor.connect = </Model/Materials/Hickory/Albedo.outputs:rgb>
+                float inputs:metallic = 0
+                float inputs:roughness = 0.45
+                token outputs:surface
+            }
+        }
+
+        def Material "BlackGloss" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/BlackGloss/Surface.outputs:surface>
+            token[] semantics:labels:material = ["plastic"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.02, 0.02, 0.022)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.3
+                token outputs:surface
+            }
+        }
+
+        def Material "OrangeRubber" (
+            prepend apiSchemas = ["SemanticsLabelsAPI:material"]
+        )
+        {
+            token outputs:surface.connect = </Model/Materials/OrangeRubber/Surface.outputs:surface>
+            token[] semantics:labels:material = ["rubber"]
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.93, 0.32, 0.03)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.8
+                token outputs:surface
+            }
+        }
+    }
+    variantSet "finish" = {
+        "black_orange" {
+            over "Geometry"
+            {
+                over "Handle" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Model/Materials/BlackGloss>
+
+                    over "Grip" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/OrangeRubber>
+                    }
+                }
+            }
+
+        }
+        "fiberglass_yellow" {
+            over "Geometry"
+            {
+                over "Handle" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Model/Materials/YellowFiberglass>
+
+                    over "Grip" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/BlackRubber>
+                    }
+                }
+            }
+
+        }
+        "hickory" {
+            over "Geometry"
+            {
+                over "Handle" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Model/Materials/Hickory>
+
+                    over "Grip" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/Hickory>
+                    }
+                }
+            }
+
+        }
+    }
+    variantSet "head" = {
+        "ball_pein" {
+            over "Geometry"
+            {
+                over "Handle"
+                {
+                    over "Head" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/BlackEnamelSteel>
+
+                        over "Faces" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </Model/Materials/PolishedSteel>
+                        }
+                    }
+                }
+            }
+
+        }
+        "claw_hammer" {
+            over "Geometry"
+            {
+                over "Handle"
+                {
+                    over "Head" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/ForgedSteel>
+
+                        over "Faces" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </Model/Materials/PolishedSteel>
+                        }
+                    }
+                }
+            }
+
+        }
+        "dead_blow" {
+            over "Geometry"
+            {
+                over "Handle"
+                {
+                    over "Head" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/RedPolyurethane>
+
+                        over "Faces" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </Model/Materials/BlackPolyurethane>
+                        }
+                    }
+                }
+            }
+
+        }
+        "rubber_mallet" {
+            over "Geometry"
+            {
+                over "Handle"
+                {
+                    over "Head" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/MalletRubber>
+
+                        over "Faces" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </Model/Materials/MalletRubber>
+                        }
+                    }
+                }
+            }
+
+        }
+        "sledge" {
+            over "Geometry"
+            {
+                over "Handle"
+                {
+                    over "Head" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Model/Materials/ForgedSteel>
+
+                        over "Faces" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </Model/Materials/PolishedSteel>
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    variantSet "physics" = {
+        "none" {
+
+        }
+        "physics" (
+            prepend references = @./forgecad/physics.usda@</Model>
+        ) {
+
+        }
+    }
+}
+

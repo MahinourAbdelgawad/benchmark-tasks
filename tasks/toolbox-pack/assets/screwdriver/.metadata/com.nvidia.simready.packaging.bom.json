@@ -1,0 +1,65 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/screwdriver.usda.png",
+      "size": 9526,
+      "hash": {
+        "sha256-flat-1mb": "f6a77fa110f5550ba74fc21af272eca1da68e15b51029dadb58d124de98ee4e2",
+        "sha256": "0e121eaaff28bc19dc6ba461b5cf3ad0d0be48b277abb3f9e51a5508b64dea1e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/assets/chrome-vanadium.png",
+      "size": 2062312,
+      "hash": {
+        "sha256-flat-1mb": "e76c0bd82ad5287d4481da4bb328f6ede53b551f3000c298dd13dae9c1b26403",
+        "sha256": "1e94479e27109904207b843d4a5ff80f4e146b7cd2c68b82ce873c36f8810e14",
+        "sha256-first1m": "75a0e9032b6aacfd655fb274cb043f51413f29a2e56064a39d34da7a45362978"
+      }
+    },
+    {
+      "relative_path": "simready_usd/assets/tpe-grip-black.png",
+      "size": 2912014,
+      "hash": {
+        "sha256-flat-1mb": "7c9abc147e5401b992eeb9be42540a89d9a0f7f9645da6404a309473653bd78c",
+        "sha256": "460520d1d9abd3e14e90cd960835091a99211671b357314e90bd4634bc4f90e2",
+        "sha256-first1m": "047d69991f2712a92d4072d146427263da6f5eaa6132cdfdcf98ed904dced233"
+      }
+    },
+    {
+      "relative_path": "simready_usd/assets/tpe-grip-soft.png",
+      "size": 2843536,
+      "hash": {
+        "sha256-flat-1mb": "0b933356a918674c7bf0d8e60ff3d0643c7f337ae78f35b5cf2b576324ccc98f",
+        "sha256": "a67795eae6a132988490ba2bcd9b2cf7c0a0608c3fffec9be13dea36a2a809c5",
+        "sha256-first1m": "90599cf66962069c8c122b2bbc1128458dafedb590aaf56c6e2db1c222b2c769"
+      }
+    },
+    {
+      "relative_path": "simready_usd/forgecad/geometry.usda",
+      "size": 32769524,
+      "hash": {
+        "sha256-flat-1mb": "ff67b210f2e610403ad5afede0d252a0a401c35e906dc9a51211fab66410fcec",
+        "sha256": "2882f44e9692deac05992dbca8a1416ea81e536341b87e8ea9ca951ee6418354",
+        "sha256-first1m": "7c02b2c3a91597c2a48b4519fbd3d0ea2992808ca0e562c007001e27d7be86fc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/forgecad/physics.usda",
+      "size": 46230,
+      "hash": {
+        "sha256-flat-1mb": "94f641ebd4e38d0c85160373483cda074b536deaf4f600bd59dbf1f3bd5d2258",
+        "sha256": "7cc81ccab202f304ad51f2a8f4927072d5414b7b3da21efb8b7806ee763d42ac"
+      }
+    },
+    {
+      "relative_path": "simready_usd/screwdriver.usda",
+      "size": 12792,
+      "hash": {
+        "sha256-flat-1mb": "5cbc916e37eff61a90e40b91c892b6151dbf2cce9aba4231ffb8ec92c1a4970c",
+        "sha256": "8eb6bc25b5e22af86334cfc6ee87b1e5ba2c7f6b1c09203d2c06039659f6d51e"
+      }
+    }
+  ]
+}

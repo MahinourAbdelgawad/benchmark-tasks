@@ -1,0 +1,1844 @@
+{
+  "schema_version": "1.0",
+  "asset": "D00443",
+  "run_timestamp": "2026-10-14T21:46:41Z",
+  "passed": true,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.05,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.434,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 152.1,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.955,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 10.355,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.241,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 140.06,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.487,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 0.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "grasp_and_lift",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.02,
+      "message": "no grasp_identifier prims found on asset",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "grasp_and_lift",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.0,
+      "message": "Requires FET_003_NEWTON to be validated first: grasp-and-lift depends on the active runtime physics setup, and FET_003_NEWTON is not in this asset's validated features.",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 46.806,
+      "message": "",
+      "metrics": {
+        "ground_drop_initial_z_min": {
+          "value": 0.3318,
+          "unit": null
+        },
+        "ground_drop_bbox_height": {
+          "value": 0.2212,
+          "unit": null
+        },
+        "ground_drop_effective_fall": {
+          "value": 0.2318,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 13.558,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 42,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 322.82,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 5.318,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_touched": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_stable": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_touch_time": {
+          "value": 0.204,
+          "unit": null
+        },
+        "ground_drop_rest_time": {
+          "value": 2.233,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 16.649,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 5.008,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 166.92,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.157,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.482759,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 14,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.706129,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.004154,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 14.824,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 4.878,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 162.6,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.433,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.448276,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 13,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.711689,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.003412,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 5.06,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.138,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 142.29,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.09,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.0,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.0,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.997,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.094,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 136.75,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.09,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.0,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.0,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 9.75,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.438,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 171.89,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.684,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": -1.3,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 9.743,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.234,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 161.71,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.569,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": -1.3,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.506,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.366,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 183.04,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.293818,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.353,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.383,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 191.74,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.293826,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.832,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.239,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 309.77,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 1,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 1,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 307659,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.937,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.133,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 283.37,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 1,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 1,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 307614,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "semantic_labels_seg_labelled",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.893,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.35,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 350.05,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "semantic_labels_on_coverage": {
+          "value": 0.293011,
+          "unit": null
+        },
+        "semantic_labels_labelled_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "semantic_labels_seg_labelled",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 2.48,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.522,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 521.73,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "semantic_labels_on_coverage": {
+          "value": 0.293011,
+          "unit": null
+        },
+        "semantic_labels_labelled_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "semantic_labels_seg_stripped",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.197,
+      "message": "",
+      "metrics": {
+        "semantic_labels_stripped_prims": {
+          "value": 2,
+          "unit": null
+        },
+        "semantic_labels_off_coverage": {
+          "value": 0.0,
+          "unit": null
+        },
+        "semantic_labels_stripped_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "semantic_labels_seg_stripped",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.675,
+      "message": "",
+      "metrics": {
+        "semantic_labels_stripped_prims": {
+          "value": 2,
+          "unit": null
+        },
+        "semantic_labels_off_coverage": {
+          "value": 0.0,
+          "unit": null
+        },
+        "semantic_labels_stripped_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 66.935,
+      "message": "",
+      "metrics": {
+        "slope_drop_initial_cx": {
+          "value": 0.0,
+          "unit": null
+        },
+        "slope_drop_initial_cy": {
+          "value": -2.1453,
+          "unit": null
+        },
+        "slope_drop_initial_z_min": {
+          "value": 5.6502,
+          "unit": null
+        },
+        "slope_drop_bbox_height": {
+          "value": 0.2212,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 17.981,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 49,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 366.95,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 5.237,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_contact_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_horiz_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_slope_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_excessive_separation": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_uphill_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_max_clearance": {
+          "value": 0.0142,
+          "unit": "m"
+        },
+        "slope_drop_separation_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_left_slope_frame": {
+          "value": 433,
+          "unit": null
+        },
+        "slope_drop_horiz_time": {
+          "value": 0.263,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    }
+  ]
+}

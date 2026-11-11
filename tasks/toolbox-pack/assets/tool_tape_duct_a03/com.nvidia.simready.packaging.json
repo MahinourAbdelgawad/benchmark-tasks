@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.nvidia.simready-assets.tool_tape_duct_a03.2026.10.09_181447924767",
+  "license": "CC-BY-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "5ba840b69f17e98bdb97efc816cef92f990c239f2f54f7d3cce7fe43902fd964"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "60dae0d850eb293b228d0c75d55be0db1f7218f500cc48814264e573a83c350a"
+  },
+  "package_hash": {
+    "sha256": "94cd5d6a084ff01720854113bce900615fa67bca3602aea14163ade4226b7042"
+  }
+}

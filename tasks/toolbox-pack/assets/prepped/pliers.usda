@@ -1,0 +1,65 @@
+#usda 1.0
+(
+    defaultPrim = "RootNode"
+)
+
+def Xform "RootNode" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+    prepend references = @../handTool_pliers_diagonal_cutting_a01/simready_usd/sm_handTool_pliers_diagonal_cutting_a01_01.usd@
+)
+{
+    over "Geometry"
+    {
+        over "handle_02_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__handTools_pliers_a01" (
+                    instanceable = false
+                )
+                {
+                }
+
+                over "m_opaque__metal__handTools_pliers_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "handle_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__metal__handTools_pliers_a01" (
+                    instanceable = false
+                )
+                {
+                }
+
+                over "m_opaque__plastic__handTools_pliers_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+    }
+
+    over "Joints"
+    {
+        over "joint_handle_02_joint_00" (
+            active = false
+        )
+        {
+        }
+    }
+}
+

@@ -1,0 +1,293 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/sm_consumable_microfiber_towel_wrinkled_b01_01.usd",
+      "size": 21679,
+      "hash": {
+        "sha256": "abf000e5a10162942ffd51fe40e6f5f32aed10b9f0a0e8db20cdcb8c21762797"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/sm_consumable_microfiber_towel_wrinkled_b01_01_thumbnail.png",
+      "size": 597964,
+      "hash": {
+        "sha256": "ffdd1889e4f94f6f4db6a1a2f0068bef53f8ea8e4e59c5ee4482d77b80bb8229"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_microfiber_towel_wrinkled_b01_01.usd.png",
+      "size": 1272238,
+      "hash": {
+        "sha256": "77e8b05b1016d7d6a0677d8bda2bccb6b7335bab5e510b8ff43996e134b51f9f",
+        "sha256-first1m": "8616f2b8f84edd7b99db1ee9a013bea5dd0ca7ed60eb673abf6ac15fdf3c58c4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_microfiber_towel_wrinkled_b01_01.usd_light.png",
+      "size": 900410,
+      "hash": {
+        "sha256": "fbf5a009df2ed25abb3317a82c9ccb28cad46bbaaf30cdb2ab87034ddf17b8bd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/sm_consumable_microfiber_towel_wrinkled_b01_01.usd_transparent.png",
+      "size": 902145,
+      "hash": {
+        "sha256": "457377073d1ad56c6fc868e077f11b2377e0ddd2c48bb1497edef86251c59a7c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png",
+      "size": 10934715,
+      "hash": {
+        "sha256": "1a2b442308d6ecbecd5e07f609509f5cf5dfc8a61007418cd75328d7d35726d9",
+        "sha256-first1m": "6b50cfccb7aecbf32a1ef98d53993f414cc6225c6afcd2e61c06a3f8511bee90"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png",
+      "size": 7279665,
+      "hash": {
+        "sha256": "16cfe3af26368be1c759eb67c0a9e1941266fce1e3f74119f507bf9584426d1e",
+        "sha256-first1m": "b833ce9d4ee94d9178707b352a13ef25503046fc100df09e89ce0e3db0b7129f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png",
+      "size": 9650528,
+      "hash": {
+        "sha256": "ce5ea0679a56b2d2a971913d7b2fd4eeae6dac884308bc022a2662ae3f3eeaa1",
+        "sha256-first1m": "b4bdf57a1f5edd88232a1ed4d5854c8e77d0577e0f1189e210103d5254e3b1cc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png.png",
+      "size": 95339,
+      "hash": {
+        "sha256": "17cd319b5cc8ccb45bfcb7e51e047863bcda90301729f3200f02b4e84c172c58"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png.png",
+      "size": 148088,
+      "hash": {
+        "sha256": "629d70bf2aec38c72951b71b6299c00f2ef304c30c9026ef428adb1e48a84236"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png.png",
+      "size": 88316,
+      "hash": {
+        "sha256": "0207cceb263329548eb9e8ef4903f738b4a072cce0c7dcbcd362cafe9b5e5363"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png.png",
+      "size": 512532,
+      "hash": {
+        "sha256": "2a51cb588c219c8a49a0ea37120ca51d98915a9259b93b4c25b2920efb315b65"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png.png",
+      "size": 786874,
+      "hash": {
+        "sha256": "6dcd3555ee47b0f2d7e581d1f288aafa65a5515b3dba4eb1c81ca78dc18f1b3a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Textures/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png.png",
+      "size": 415064,
+      "hash": {
+        "sha256": "173fbe78a42afec98f808d4cf7805fe99f5754b653d7990dd548fb343072c7e9"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/base.usda",
+      "size": 11246,
+      "hash": {
+        "sha256": "65b85e7abc6fdcba51ae6cbbde058533a73f628b458d9f725d6e3be07d456470"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/geometries.usd",
+      "size": 50516052,
+      "hash": {
+        "sha256": "dc45a50dd7c0c2820e4f196ecb862c5ad8271abc6b4eaaae7d3d54e311019d4a",
+        "sha256-first1m": "e7a2ec6f39fe53a3efc6f60a59a7d1f6075d1b448c804085b39f084ae881dbd4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances.usda",
+      "size": 7797,
+      "hash": {
+        "sha256": "033149efe5d8cbd4932d1715ed9e7218d3079d9a66ef3aa11880724c240016bc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_mujoco.usda",
+      "size": 8069,
+      "hash": {
+        "sha256": "38c622ee9342d0bd6d83ff68ee3e3bcdaeda5822b1e37b8f3f5fcffd0972edbc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_newton.usda",
+      "size": 7920,
+      "hash": {
+        "sha256": "4cff6a279ffdaa72bec8826824ebd85d19eb675c7d94978ecd37354e5d8d25a4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances_physx.usda",
+      "size": 8223,
+      "hash": {
+        "sha256": "8277e19ab0d6e236f37c85e8978501748d95912d65c3f90794c7027ff0d76ea7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/materials.usda",
+      "size": 12932,
+      "hash": {
+        "sha256": "05b6ea5a718930227591d0d97b8e6f5551f5635fa0e69e809731ebf56fda05e1"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/MuJoCo/disabled.usda",
+      "size": 6794,
+      "hash": {
+        "sha256": "3835e30dab449cc58366468c1050e0176352c097f89b1b7f3691b05dc556aa0a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/MuJoCo/enabled.usda",
+      "size": 7558,
+      "hash": {
+        "sha256": "80316edea6f3fe97e06920a8be0703aee70fdea6c8ecbc612fb94e1d0ae40f77"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Newton/disabled.usda",
+      "size": 6794,
+      "hash": {
+        "sha256": "3835e30dab449cc58366468c1050e0176352c097f89b1b7f3691b05dc556aa0a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Newton/enabled.usda",
+      "size": 7380,
+      "hash": {
+        "sha256": "fe3414b19b09b3eabf7ddcdb342da55ae387a792ab504eeb685901763476e519"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/PhysX/disabled.usda",
+      "size": 6794,
+      "hash": {
+        "sha256": "3835e30dab449cc58366468c1050e0176352c097f89b1b7f3691b05dc556aa0a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/PhysX/enabled.usda",
+      "size": 7085,
+      "hash": {
+        "sha256": "1cb48436faa826465b13d66f3b8881ad8a8120d002cdebbd5ba6de47a8846873"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Physics/physics.usda",
+      "size": 7627,
+      "hash": {
+        "sha256": "c60e7da758500468b8f589b14f9dbd8f33436880345121405645542167e514fa"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBR.mdl",
+      "size": 16010,
+      "hash": {
+        "sha256": "6e6b3acbccd236e21a6c29964a431d2a53e77251cc6b8b1bc975eb1c62da1781"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBRBase.mdl",
+      "size": 19369,
+      "hash": {
+        "sha256": "a8fd9fe174e91892e94d06da90ba453a124024c2ce2c033be9d82c9e2f76a3b7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/OmniPBR_ClearCoat.mdl",
+      "size": 29789,
+      "hash": {
+        "sha256": "d84c5ba482561c0eaea2e0c5b607358af549e36cd921773462f92dbc4f32cbc3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png",
+      "size": 9650528,
+      "hash": {
+        "sha256": "ce5ea0679a56b2d2a971913d7b2fd4eeae6dac884308bc022a2662ae3f3eeaa1",
+        "sha256-first1m": "b4bdf57a1f5edd88232a1ed4d5854c8e77d0577e0f1189e210103d5254e3b1cc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png",
+      "size": 10934715,
+      "hash": {
+        "sha256": "1a2b442308d6ecbecd5e07f609509f5cf5dfc8a61007418cd75328d7d35726d9",
+        "sha256-first1m": "6b50cfccb7aecbf32a1ef98d53993f414cc6225c6afcd2e61c06a3f8511bee90"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png",
+      "size": 7279665,
+      "hash": {
+        "sha256": "16cfe3af26368be1c759eb67c0a9e1941266fce1e3f74119f507bf9584426d1e",
+        "sha256-first1m": "b833ce9d4ee94d9178707b352a13ef25503046fc100df09e89ce0e3db0b7129f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png.png",
+      "size": 95339,
+      "hash": {
+        "sha256": "17cd319b5cc8ccb45bfcb7e51e047863bcda90301729f3200f02b4e84c172c58"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png.png",
+      "size": 148088,
+      "hash": {
+        "sha256": "629d70bf2aec38c72951b71b6299c00f2ef304c30c9026ef428adb1e48a84236"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/256x256/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png.png",
+      "size": 88316,
+      "hash": {
+        "sha256": "0207cceb263329548eb9e8ef4903f738b4a072cce0c7dcbcd362cafe9b5e5363"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_alb.png.png",
+      "size": 512532,
+      "hash": {
+        "sha256": "2a51cb588c219c8a49a0ea37120ca51d98915a9259b93b4c25b2920efb315b65"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_nor.png.png",
+      "size": 786874,
+      "hash": {
+        "sha256": "6dcd3555ee47b0f2d7e581d1f288aafa65a5515b3dba4eb1c81ca78dc18f1b3a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/source_assets/.thumbs/512x512/t_consumable_microfiber_towel_wrinkled_orange_b01_orm.png.png",
+      "size": 415064,
+      "hash": {
+        "sha256": "173fbe78a42afec98f808d4cf7805fe99f5754b653d7990dd548fb343072c7e9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+#usda 1.0
+(
+    defaultPrim = "RootNode"
+)
+
+def Xform "RootNode" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+    prepend references = @../consumable_spray_solvent_a01/simready_usd/sm_consumable_spray_solvent_a01_01.usd@
+)
+{
+    over "Geometry"
+    {
+        over "can_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__metal__consumableAdhesives_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "nozzle_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__consumableAdhesives_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+
+        over "cap_01_obj_00" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            instanceable = false
+        )
+        {
+            over "VisualMaterials"
+            {
+                over "m_opaque__plastic__consumableAdhesives_a01" (
+                    instanceable = false
+                )
+                {
+                }
+            }
+        }
+    }
+
+    over "Joints"
+    {
+        over "joint_nozzle_01_joint_00" (
+            active = false
+        )
+        {
+        }
+
+        over "joint_cap_01_joint_00" (
+            active = false
+        )
+        {
+        }
+    }
+}
+

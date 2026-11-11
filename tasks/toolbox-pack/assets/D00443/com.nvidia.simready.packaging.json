@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.PalatialSim.palatial-nv-asset-library.D00443.2026.10.13_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "b66bad95759a1ef5812c1f3454bd189d2947d5a0338e43e5090010c407852645"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "76a4297d83e0cd03c83eddcdb6533b507001f1a50433cbe4d302a40f2e8ceb64"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "b9f391232cfc38820a57736025d2ddccee30d0e3f19b6d1a723f27e2d1c9561b"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "c14fb5bc62218b362ec50a634e4335a042730a42756d70bc6a9da2eb5f7506f8"
+  },
+  "package_hash": {
+    "sha256": "980f0454b966351e6655a0aaf8174f55c4bf5415f2c9edd16637381a115a3eda"
+  }
+}
