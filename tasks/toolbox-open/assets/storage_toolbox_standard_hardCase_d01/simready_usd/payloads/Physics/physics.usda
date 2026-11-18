@@ -1,0 +1,272 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            dictionary Variants = {
+                dictionary Physics = {
+                    dictionary MuJoCo = {
+                        string activateOption = "Enabled"
+                        string prim = "/RootNode"
+                        string variantSetName = "MuJoCo"
+                    }
+                    dictionary Newton = {
+                        string activateOption = "Enabled"
+                        string prim = "/RootNode"
+                        string variantSetName = "Newton"
+                    }
+                    dictionary PhysX = {
+                        string activateOption = "Enabled"
+                        string prim = "/RootNode"
+                        string variantSetName = "PhysX"
+                    }
+                }
+            }
+            string asset_location = "simready_content\\common_assets\\props_automotive_workshop_tools\\storage_toolbox_standard_hardCase_d01\\simready_physx_usd\\sm_storage_toolbox_standard_hardCase_d01_01.usd"
+            string asset_type = "prop"
+            dictionary validation = {
+                string profile = "Robotics-Prop"
+                string profile_version = "3.1.0"
+                dictionary validated_features = {
+                    dictionary "2026-06-22" = {
+                        dictionary FET000_CORE = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET001_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            string "failing requirements" = "['AA.001']"
+                            bool passed = 0
+                            string version = "0.1.0"
+                        }
+                        dictionary FET003_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET003_BASE_PHYSX = {
+                            string dependencies = "[{'FET003_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET004_BASE_NEUTRAL = {
+                            string dependencies = "[{'FET003_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET004_BASE_PHYSX = {
+                            string dependencies = "[{'FET003_BASE_PHYSX': {'version': '0.1.0'}}, {'FET004_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET005_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET006_BASE_MDL = {
+                            string dependencies = "[]"
+                            string "failing requirements" = "['VM.MDL.001']"
+                            bool passed = 0
+                            string version = "0.1.0"
+                        }
+                    }
+                    dictionary "2026-06-24" = {
+                        dictionary FET000_CORE = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET001_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            string "failing requirements" = "['AA.001']"
+                            bool passed = 0
+                            string version = "0.1.0"
+                        }
+                        dictionary FET003_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET003_BASE_PHYSX = {
+                            string dependencies = "[{'FET003_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET004_BASE_NEUTRAL = {
+                            string dependencies = "[{'FET003_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET004_BASE_PHYSX = {
+                            string dependencies = "[{'FET003_BASE_PHYSX': {'version': '0.1.0'}}, {'FET004_BASE_NEUTRAL': {'version': '0.1.0'}}]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET005_BASE_NEUTRAL = {
+                            string dependencies = "[]"
+                            bool passed = 1
+                            string version = "0.1.0"
+                        }
+                        dictionary FET006_BASE_MDL = {
+                            string dependencies = "[]"
+                            string "failing requirements" = "['VM.MDL.001']"
+                            bool passed = 0
+                            string version = "0.1.0"
+                        }
+                    }
+                }
+            }
+        }
+        string asset_dir = "simready_content/common_assets/props_automotive_workshop_tools/storage_toolbox_standard_hardCase_d01"
+        string asset_name = "storage_toolbox_standard_hardCase_d01"
+        string asset_type = "prop"
+        string profile = "Prop-Robotics-Neutral"
+        string source_file = "../simready_usd/sm_storage_toolbox_standard_hardCase_d01_01.usd"
+        string usd_date_generated = "2026-06-22 17:52:05"
+        bool used_dsrs_exporter = 1
+    }
+    defaultPrim = "RootNode"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Geometry"
+    {
+        over "hand_01_obj_00" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "top_01_obj_00" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0.15937549, -8.3019916e-7, 0.028953195)
+            float3 physics:diagonalInertia = (0.004735456, 0.0032699294, 0.007721772)
+            float physics:mass = 0.5
+            quatf physics:principalAxes = (1, 0, 0, 0)
+        }
+
+        over "lock_01_obj_00" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "box_01_obj_00" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0.021909233, 0.00003879974, 0.092246756)
+            float3 physics:diagonalInertia = (0.06386967, 0.043006502, 0.08687556)
+            float physics:mass = 3
+            quatf physics:principalAxes = (1, 0, 0, 0)
+        }
+    }
+
+    over "PhysicsMaterials"
+    {
+        over "physics_mat_m_opaque__plastic__yellow_a01" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 950
+            float physics:dynamicFriction = 0.4
+            float physics:restitution = 0.4
+            float physics:staticFriction = 0.4
+        }
+
+        over "physics_mat_m_opaque__plastic__gray_a01" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 950
+            float physics:dynamicFriction = 0.4
+            float physics:restitution = 0.4
+            float physics:staticFriction = 0.4
+        }
+
+        over "physics_mat_m_opaque__plastic__rough_black_a01" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 950
+            float physics:dynamicFriction = 0.4
+            float physics:restitution = 0.4
+            float physics:staticFriction = 0.4
+        }
+
+        over "physics_mat_m_opaque__metal__chrome_a01" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 7850
+            float physics:dynamicFriction = 0.3
+            float physics:restitution = 0.1
+            float physics:staticFriction = 0.3
+        }
+    }
+
+    over "Joints"
+    {
+        def PhysicsRevoluteJoint "joint_hand_01_joint_00" (
+            prepend apiSchemas = ["PhysicsJointStateAPI:angular"]
+        )
+        {
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            prepend rel physics:body0 = </RootNode/Geometry/top_01_obj_00/top_01_mesh_00>
+            custom rel physics:body1
+            prepend rel physics:body1 = </RootNode/Geometry/hand_01_obj_00/hand_01_mesh_00>
+            float physics:breakForce = inf
+            float physics:breakTorque = inf
+            point3f physics:localPos0 = (0.14984703, -0.000036939447, 0.0446897)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            float physics:lowerLimit = -90
+            float physics:upperLimit = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_top_01_joint_00" (
+            prepend apiSchemas = ["PhysicsJointStateAPI:angular"]
+        )
+        {
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            prepend rel physics:body0 = </RootNode/Geometry/box_01_obj_00/box_01_mesh_00>
+            custom rel physics:body1
+            prepend rel physics:body1 = </RootNode/Geometry/top_01_obj_00/top_01_mesh_00>
+            float physics:breakForce = inf
+            float physics:breakTorque = inf
+            point3f physics:localPos0 = (-0.15407753, 0.000034590063, 0.1651678)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            float physics:lowerLimit = -90
+            float physics:upperLimit = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_lock_01_joint_00" (
+            prepend apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float drive:angular:physics:damping = 1
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            prepend rel physics:body0 = </RootNode/Geometry/top_01_obj_00/top_01_mesh_00>
+            custom rel physics:body1
+            prepend rel physics:body1 = </RootNode/Geometry/lock_01_obj_00/lock_01_mesh_00>
+            float physics:breakForce = inf
+            float physics:breakTorque = inf
+            point3f physics:localPos0 = (0.29788673, -0.000034516732, 0.006239608)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            float physics:lowerLimit = -90
+            float physics:upperLimit = 14.1
+        }
+    }
+}
+

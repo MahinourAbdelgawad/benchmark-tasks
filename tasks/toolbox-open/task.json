@@ -1,0 +1,19 @@
+{
+  "title": "Release both toolbox clips and open the lid",
+  "category": "Impact on jobs",
+  "keywords": [
+    "toolbox",
+    "latches",
+    "hinged lid",
+    "bimanual"
+  ],
+  "instruction": "Release both yellow toolbox clips, then lift and push the lid all the way open.",
+  "context": "Opening latched cases is a common prerequisite for tool retrieval in maintenance, repair, and field-service work.",
+  "setup": "One closed 31.4 × 53.1 × 27.9 cm hard-plastic toolbox with a 3 kg base, 0.5 kg lid, black plastic handle, and two yellow plastic clips 31 cm apart is fixed at (0.37, 0, 0.7485) m on the oak YAM station table. Its rear metal-pin hinge faces away from the arms. Both clips and the lid start at 0 degrees.",
+  "scoring": "At the end, 0.25 for one clip at least 25 degrees open, 0.50 for both, and 0.75 for both plus at least 45 degrees of lid opening. Success scores 1.0 when both clips meet the release threshold and the lid stays at or above 85 degrees at an angular speed of at most 2 degrees per second for one second.",
+  "run_limit": "2,400 control steps (120 simulated seconds at 20 Hz)",
+  "reset_notes": "Reset both clips and the lid to their closed angular positions and return both arms to ready.",
+  "fidelity": "The supplied SimReady hard-case visual meshes and materials are reused. Each yellow clip has a separate passive hinge. Small box colliders approximate the hooks and catches. The base is anchored so the task isolates unlatching and opening.",
+  "scores": "Dream-1 run: 0.0; scripted demo: 1.0",
+  "media": "M-UQ9MRQ"
+}
