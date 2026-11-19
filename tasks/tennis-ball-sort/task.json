@@ -1,0 +1,10 @@
+{
+  "title": "Sort tennis balls by firmness",
+  "category": "Societal relatability",
+  "instruction": "Compare the tennis balls by squeezing them. Leave the softer ball in the orange tray and the firmer ball in the blue tray.",
+  "setup": "Two visually identical 67 mm, 57 g felt-covered rubber tennis balls start 36 cm forward and 5.5 cm either side of center on the station table. Fixed square plastic trays, orange on the right and blue on the left, are centered 36 cm forward and 19 cm either side of center. Each has a 14 cm square base, 6 mm floor and 6 mm walls rising 58 mm above the floor.",
+  "scoring": "At trial end each ball earns 0.5 if its horizontal bounds are inside the correct tray, its lowest point is within 3 mm of the inner floor height, and its mean nodal velocity magnitude is below 2 cm/s. Otherwise it earns zero.",
+  "run_limit": "1,200 steps at 20 Hz",
+  "fidelity": "Spherical volume deformables with different effective stiffness approximate the compliance of fresh and pressure-depleted balls. Material calibration is pending.",
+  "scores": "Pending VM trials."
+}
