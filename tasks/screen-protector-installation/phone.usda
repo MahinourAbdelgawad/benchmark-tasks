@@ -1,0 +1,127 @@
+#usda 1.0
+(
+    defaultPrim = "Body"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Body" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+)
+{
+    float physics:mass = 0.24
+
+    def Cube "phone" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/phone>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.076, 0.156, 0.018)
+        double3 xformOp:translate = (0, 0, 0.009)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def "Materials"
+    {
+        def Material "phone" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/phone/Surface.outputs:surface>
+            float physics:dynamicFriction = 0.85
+            float physics:staticFriction = 0.85
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.025, 0.03, 0.04)
+                token outputs:surface
+            }
+        }
+
+        def Material "display" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/display/Surface.outputs:surface>
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.035, 0.13, 0.19)
+                token outputs:surface
+            }
+        }
+
+        def Material "camera_island" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/camera_island/Surface.outputs:surface>
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.025, 0.03, 0.04)
+                token outputs:surface
+            }
+        }
+
+        def Material "home_indicator" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/home_indicator/Surface.outputs:surface>
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.7, 0.78, 0.75)
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "display" (
+        prepend apiSchemas = ["PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/display>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.071, 0.147, 0.00005)
+        double3 xformOp:translate = (0, 0, 0.01802)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Cube "camera_island" (
+        prepend apiSchemas = ["PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/camera_island>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.016, 0.004, 0.00006)
+        double3 xformOp:translate = (0, 0.062, 0.01806)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Cube "home_indicator" (
+        prepend apiSchemas = ["PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/home_indicator>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.022, 0.001, 0.00006)
+        double3 xformOp:translate = (0, -0.065, 0.01806)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+

@@ -1,0 +1,11 @@
+{
+  "title": "Peel and install a phone screen protector",
+  "category": "Societal relatability",
+  "instruction": "Remove the backing from the new screen protector and install it on the phone. Leave the protector aligned and fully adhered, with the carrier removed.",
+  "setup": "A loose backed protector and a clean face-up phone lie beside one another. The protector has a pre-fitted removable vacuum carrier and a translucent plastic backing with an integral folded pull tab at its short end.",
+  "scoring": "For the final second all 288 surface sites must be bonded, uncovered and within 1.5 mm of the screen, with less than 2 mm maximum in-plane alignment error. The trace must show a backed lift, partial peel, complete exposure before transfer and clear tools at the endpoint.",
+  "fidelity": "Native bimanual YAM and PhysX, eight hinged backing sections with a continuous translucent surface, a ventable carrier, and sampled adhesive bonds. Dimensions and material parameters are approximate.",
+  "reset_notes": "Each invocation creates a fresh specimen with its backing attached.",
+  "run_limit": "602 control steps at 20 Hz (30.1 simulated seconds).",
+  "scores": "Revised PET-liner demo: completed peel and placement, failed the 2 mm alignment threshold in the first completed run. See clean/result.json for the latest recorded trial."
+}

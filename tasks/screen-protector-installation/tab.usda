@@ -1,0 +1,132 @@
+#usda 1.0
+(
+    defaultPrim = "Body"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Body" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+)
+{
+    float physics:mass = 0.005
+
+    def Cube "backing" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/backing>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        token visibility = "invisible"
+        float3 xformOp:scale = (0.07, 0.017975, 0.0009)
+        double3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def "Materials"
+    {
+        def Material "backing" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/backing/Surface.outputs:surface>
+            float physics:dynamicFriction = 0.2
+            float physics:staticFriction = 0.2
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.03, 0.34, 0.36)
+                token outputs:surface
+            }
+        }
+
+        def Material "extension" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/extension/Surface.outputs:surface>
+            float physics:dynamicFriction = 0.6
+            float physics:staticFriction = 0.6
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.04, 0.66, 0.48)
+                token outputs:surface
+            }
+        }
+
+        def Material "folded_tab" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/folded_tab/Surface.outputs:surface>
+            float physics:dynamicFriction = 1
+            float physics:staticFriction = 1
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.04, 0.66, 0.48)
+                token outputs:surface
+            }
+        }
+
+        def Material "printed_band" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            token outputs:surface.connect = </Body/Materials/printed_band/Surface.outputs:surface>
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.7, 0.78, 0.75)
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "extension" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/extension>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.023, 0.025, 0.0009)
+        double3 xformOp:translate = (0, -0.02156250000000001, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Cube "folded_tab" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/folded_tab>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.023, 0.004, 0.024)
+        double3 xformOp:translate = (0, -0.03356250000000001, 0.0115)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Cube "printed_band" (
+        prepend apiSchemas = ["PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Body/Materials/printed_band>
+        custom float physxCollision:contactOffset = 0.0003
+        custom float physxCollision:restOffset = 0
+        double size = 1
+        float3 xformOp:scale = (0.02, 0.0001, 0.002)
+        double3 xformOp:translate = (0, -0.03566250000000001, 0.02)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+
